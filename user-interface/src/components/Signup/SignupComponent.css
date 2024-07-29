@@ -1,0 +1,12 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50vw;
+    margin-top: 10vh;
+    transform: translateX(-50%);
+    width: 30vw;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 1vw;
+}
