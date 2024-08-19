@@ -1,4 +1,8 @@
 # Facial Verification [PyTorch]
+<p align="center">
+  <img src="./demo.gif" width="200">
+  <i> Video demo </i>
+</p>
 
 ## Introduction
 This application offers a convenient and secure login solution using facial recognition technology. Users can easily access their accounts by simply presenting their face to the camera, without the need for traditional login credentials.
