@@ -13,14 +13,14 @@ This application offers a convenient and secure login solution using facial reco
 ## Model training
 Users have several options to train the facial verification model:
 * Download [lfw](http://vis-www.cs.umass.edu/lfw/#download) dataset
-* Install the required dependencies by running pip install -r requirements.txt.
+* Install the required dependencies by running `pip install -r requirements.txt`
 #### Local Training:
-* Run python3 train_model.py -sp path/to/input/folder to train the model with default parameters on a local dataset.
+* Run `python3 train_model.py -sp path/to/input/folder` to train the model with default parameters on a local dataset.
 * Use the -nl flag if you have already downloaded the dataset.
 #### Cloud-based Training:
 * Run all cells in the train_azure.ipynb notebook in the train_azure folder to train the model on Azure with default parameters.
 #### Custom Training:
-* Run python3 train_model.py -b batch_size -lr learning_rate to train the model with your preferred batch size and learning rate.
+* Run `python3 train_model.py -b batch_size -lr learning_rate` to train the model with your preferred batch size and learning rate.
 
 ## Web Application
 Users can access the web application by running the Website branch.
