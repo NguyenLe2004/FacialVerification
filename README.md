@@ -12,8 +12,9 @@ This application offers a convenient and secure login solution using facial reco
 * Support for both local and cloud-based model training
 ## Model training
 Users have several options to train the facial verification model:
-#### Local Training:
+* Download [lfw](http://vis-www.cs.umass.edu/lfw/#download) dataset
 * Install the required dependencies by running pip install -r requirements.txt.
+#### Local Training:
 * Run python3 train_model.py -sp path/to/input/folder to train the model with default parameters on a local dataset.
 * Use the -nl flag if you have already downloaded the dataset.
 #### Cloud-based Training:
